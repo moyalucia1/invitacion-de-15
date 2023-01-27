@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
+
+.titulo{
+    
+    font-family: Pacifico;
+    color: rgba(241, 189, 241, 0.575);
+    font-size: 60px;
+}
+.roll-in-left {
+	-webkit-animation: roll-in-left 1s ease-out both;
+	        animation: roll-in-left 1s ease-out both;
+}
+@-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+
+.nombre{
+    font-size: 80px;
+    font-family:Parisienne;
+    color: darkmagenta;
+    
+}
+.horario{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.frase{
+    color: rgb(246, 248, 250);
+    font-size: 30px;
+}
+.h3{
+   font-family: fantasy;
+    font-weight: 300;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(151, 18, 122);
+   text-shadow: 6px 6px  rgb(87, 86, 86);
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
