@@ -8,8 +8,8 @@ function Body() {
 
             <h1 className="titulo slide-fwd-center">Te invito a mi Fiesta!</h1>
             <div className="frase">
-                <h4>Aprendi que estar con quienes quiero...</h4>
-                <h5>es suficiente para ser Feliz, por eso quiero compartir con vos esta noche.</h5>
+                <h4>Aprendi que estar con quienes quiero</h4>
+                <h5>Es suficiente para ser Feliz, por eso quiero compartir con vos esta noche magica & unica para mi!🎇.</h5>
             </div>
 
             <div className="contenedor">
@@ -22,7 +22,10 @@ function Body() {
             <div>
                  <h1 className="info"> Te espero para disfrutar una noche maravillosa !!</h1>
             </div>
-                 <a className="boton heartbeat" href=" https://wa.me/1132722394?text=Confirmo%20Asistencia."> Enviar Confirmacion</a>
+            <div>
+            <a className="boton heartbeat" href=" https://wa.me/1132722394?text=Confirmo%20Asistencia."> 🎈Enviar Confirmacion</a>
+            </div>
+                
 
         </div>
     )
