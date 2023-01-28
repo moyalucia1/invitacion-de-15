@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
 
 .titulo {
 
-  font-family: Pacifico;
+  font-family: Styles;
   color: rgba(245, 17, 245, 0.884);
-  font-size: 60px;
+  font-size: 90px;
 }
 .slide-fwd-center {
 	-webkit-animation: slide-fwd-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
