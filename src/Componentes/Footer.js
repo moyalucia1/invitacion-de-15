@@ -3,7 +3,8 @@ import '../Componentes/Footer.css'
 function Footer() {
     return(
         <div>
-           </div>
+            <h1 className="animacion">Gracias por confiar - @moya_lucia - Terminos & Condiciones</h1>
+        </div>
     )
 }
 

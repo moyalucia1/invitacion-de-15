@@ -1,0 +1,10 @@
+.animacion{
+  margin: 10px ;
+  background-image: linear-gradient(90 deg, red, blue, white);
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 100% 5px;
+  background-position: left bottom;
+}
