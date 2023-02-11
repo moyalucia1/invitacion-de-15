@@ -1,9 +1,26 @@
 import React from "react";
 import '../Componentes/Footer.css'
 function Footer() {
-    return(
+    return (
         <div>
-            <h1 className="animacion">Gracias por confiar - @moya_lucia - Terminos & Condiciones</h1>
+            <div>
+                <h1 className="Regalos">Listas de Regalos</h1>
+            </div>
+
+            <div>
+                <label>
+                    Ropa:
+                    <input type="checkbox" name="name" />
+                </label>
+            </div>
+
+
+            <button type="text">Confirmar Asistencian</button>
+            <div>
+                <h4>Vestir elegante Sport</h4>
+            </div>
+
+
         </div>
     )
 }

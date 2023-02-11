@@ -1,74 +1,60 @@
+body {
+  background-image: url("../img/brillitos.gif");
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
 
 
+.principal {
+  display: flex;
+  flex-direction: column;
+}
+
 .titulo {
 
   font-family: Parisienne;
-  color: rgba(245, 17, 245, 0.884);
-  font-size: 100px;
-}
-
-
-
-
-.nombre {
-  font-size: 120px;
-  font-family: Parisienne, cursive;
   color: darkmagenta;
-
-}
-.slide-bottom {
-	-webkit-animation: slide-bottom 0.8s linear both;
-	        animation: slide-bottom 0.8s linear both;
-}
-@-webkit-keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
-  }
-}
-@keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
-  }
-}
-
-
-.horario {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: antiquewhite;
-  font-size: 20px;
-
-}
-
-.contenedor {
-  display: flex;
-  justify-content: center;
-  flex-direction:column;
+  font-size: 100px;
 }
 
 .frase {
   color: rgb(239, 240, 241);
-  font-size: 40px;
+  font-size: 50px;
   font-family: Pacifico;
- 
+
 }
+
+
+.nombre_xv {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre {
+  font-size: 95px;
+  font-family: Parisienne, cursive;
+  color: darkmagenta;
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 
 .h3 {
   font-family: fantasy;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 90px;
   font-style: italic;
   color: rgb(216, 41, 216);
   text-decoration: underline;
@@ -76,36 +62,40 @@
 }
 
 .scale-up-center {
-	-webkit-animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
-	        animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
+  -webkit-animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
+  animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
 }
+
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
+
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 
 .info {
-  color:darkmagenta;
+  color: darkmagenta;
   font-size: 40px;
   font-family: Mystery Quest;
-  
+
 }
 
 
@@ -116,83 +106,22 @@
   font-family: cursive;
   color: rgb(252, 252, 252);
   display: inline-flex;
-  
-}
-.heartbeat {
-	-webkit-animation: heartbeat 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite ;
-	        animation: heartbeat 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite ;
-}
-@-webkit-keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-            transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-            transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-            transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-            transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
+  height: 60px;
+  width: 180px;
 }
 
 .direccion {
   color: aliceblue;
   font-size: 25x;
   font-family: monospace, cursive;
+}
+
+.fecha_hora {
+  width: 240px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: rgb(239, 240, 241);
+  font-size: 17px;
+  font-family: Pacifico;
 }
