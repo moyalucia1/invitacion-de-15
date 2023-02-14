@@ -3,7 +3,6 @@ body {
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .body{
   display: flex;
@@ -12,12 +11,9 @@ body {
   text-align: center;
   align-items: center;
 }
-
-
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Parisienne&display=swap);
-
 
 .principal {
   display: flex;
@@ -26,17 +22,18 @@ body {
 
 .titulo {
   font-family: Parisienne;
-  color: darkmagenta;
+  color: rgb(175, 127, 238);
   font-size: 100px;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .frase {
-  color: rgb(239, 240, 241);
+  color:white;
   font-size: 50px;
-  font-family: Pacifico;
+  font-family:Indie Flower;
 
 }
-
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
 .nombre_xv {
   display: flex;
@@ -44,9 +41,10 @@ body {
 }
 
 .nombre {
-  font-size: 95px;
+  font-size: 110px;
   font-family: Parisienne, cursive;
-  color: darkmagenta;
+  color:black;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 
@@ -57,15 +55,10 @@ body {
 }
 
 
-
-.h3 {
-
-}
-
 .scaleUp {
   -webkit-animation: scaleUp 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
   animation: scaleUp 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
-  font-family: fantasy;
+  font-family: Indie Flower;
   font-weight: 300;
   font-size: 90px;
   font-style: italic;
@@ -109,13 +102,16 @@ body {
 
 
 .boton {
-
-  font-size: 20px;
-  font-family: cursive;
-  color: rgb(252, 252, 252);
-  display: inline-flex;
-  height: 60px;
-  width: 180px;
+  background-color: #d40fa391; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .direccion {

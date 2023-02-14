@@ -4,20 +4,17 @@ function Footer() {
     return (
         <div>
             <div>
-                <h1 className="Regalos">Listas de Regalos</h1>
+                <h1 className="Regalos">CheckList de mis Deseos</h1>
             </div>
-
-            <div>
-                <label>
-                    Ropa:
-                    <input type="checkbox" name="name" />
-                </label>
+            <div className="mercado_pago">
+                <ul>
+                    <li>Mercado Pago Alias: Micol.Valencia5</li>
+                    <li>Mercado Pago/Cbu: 0000003100085839829475</li>
+                </ul> 
             </div>
-
-
-            <button type="text">Confirmar Asistencian</button>
+            
             <div>
-                <h4>Vestir elegante Sport</h4>
+                <h4 className="vestir">Vestir elegante Sport</h4>
             </div>
 
 
