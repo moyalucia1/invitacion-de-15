@@ -3,6 +3,14 @@ body {
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  
+}
+.body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 
@@ -17,7 +25,6 @@ body {
 }
 
 .titulo {
-
   font-family: Parisienne;
   color: darkmagenta;
   font-size: 100px;
@@ -52,6 +59,12 @@ body {
 
 
 .h3 {
+
+}
+
+.scaleUp {
+  -webkit-animation: scaleUp 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
+  animation: scaleUp 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
   font-family: fantasy;
   font-weight: 300;
   font-size: 90px;
@@ -61,12 +74,7 @@ body {
   text-shadow: 6px 6px rgb(253, 253, 253);
 }
 
-.scale-up-center {
-  -webkit-animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
-  animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
-}
-
-@-webkit-keyframes scale-up-center {
+@-webkit-keyframes scaleUp {
   0% {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
@@ -78,7 +86,7 @@ body {
   }
 }
 
-@keyframes scale-up-center {
+@keyframes scaleUp {
   0% {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
@@ -119,8 +127,8 @@ body {
 .fecha_hora {
   width: 240px;
   display: flex;
+  flex-direction: column;
   text-align: center;
-  justify-content: space-between;
   color: rgb(239, 240, 241);
   font-size: 17px;
   font-family: Pacifico;
